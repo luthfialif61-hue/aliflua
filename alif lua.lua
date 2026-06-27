@@ -72,7 +72,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Walk Speed"]            = 35,
         ["Slide Speed"]           = 35,
         ["Fast Travel"]           = true,
-        ["Teleport"]              = true,
+        ["Teleport"]              = false,
     },
     ["Friends"] = {
         ["Auto Accept"] = false,
