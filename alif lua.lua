@@ -79,7 +79,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Auto Send"]   = false,
     },
     ["Performance"] = {
-        ["FPS Cap"]              = 15,
+        ["FPS Cap"]              = 5,
         ["Low Graphics"]         = true,
         ["Remove Other Gardens"] = true,
         ["Hide Crop Visuals"]    = true,
