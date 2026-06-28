@@ -30,7 +30,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Auto Expand Plot"]    = true,
         ["Max Expansions"]      = 3,
         ["Expand If Over"]      = 1500000,
-        ["Auto Replace Plants"] = true,
+        ["Auto Replace Plants"] = false,
     },
     ["Never Sell"] = {
         ["By Mutation"] = {},
