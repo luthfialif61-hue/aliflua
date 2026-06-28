@@ -28,7 +28,7 @@ _G.GAGConfig = _G.GAGConfig or {
     ["Money"] = {
         ["Keep Cash"]           = 15000,
         ["Auto Expand Plot"]    = true,
-        ["Max Expansions"]      = 3,
+        ["Max Expansions"]      = 5,
         ["Expand If Over"]      = 1500000,
         ["Auto Replace Plants"] = false,
     },
