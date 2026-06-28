@@ -50,7 +50,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Place Sprinklers"]     = {},
         ["Best Sprinkler Up To"] = {},
         ["Keep Gear"]            = { ["Trowel"] = 1 },
-        ["Buy Gear"]             = { "Uncommon Sprinkler", "Legendary Sprinkler", "Super Watering Can" },
+        ["Buy Gear"]             = { "Uncommon Sprinkler", "Super Watering Can" },
     },
     ["Event Seeds"] = {
         ["Auto Claim"] = true,
