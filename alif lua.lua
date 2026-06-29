@@ -38,7 +38,10 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Exact"]       = {},
     },
     ["Pets"] = {
-        ["Buy"]            = { "Deer" = 6, "Raccoon" },
+         ["Buy"] = {
+             ["Deer"] = 6,
+             ["Raccoon"] = 1,
+    },
         ["Equip"]          = { Deer = 6 },
         ["Auto Buy Slots"] = true,
         ["Max Pet Slots"]  = 6,
