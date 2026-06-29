@@ -38,7 +38,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Exact"]       = {},
     },
     ["Pets"] = {
-        ["Buy"]            = { "Deer" },
+        ["Buy"]            = { "Deer" = 6, "Raccoon" },
         ["Equip"]          = { Deer = 6 },
         ["Auto Buy Slots"] = true,
         ["Max Pet Slots"]  = 6,
@@ -46,11 +46,11 @@ _G.GAGConfig = _G.GAGConfig or {
     ["Gear"] = {
         ["Auto Buy"]             = true,
         ["Keep Cash"]            = 15000,
-        ["Sprinkler Coverage"]   = "concentrate",
-        ["Place Sprinklers"]     = {},
-        ["Best Sprinkler Up To"] = {},
+        ["Sprinkler Coverage"]   = "spread",
+        ["Place Sprinklers"]     = { ["Uncommon Sprinkler"] = 6 },
+        ["Best Sprinkler Up To"] = "Uncommon Sprinkler",
         ["Keep Gear"]            = { ["Trowel"] = 1 },
-        ["Buy Gear"]             = { "Super Watering Can", "Super Sprinkler" },
+        ["Buy Gear"]             = { "Uncommon Sprinkler", "Super Watering Can", "Super Sprinkler" },
     },
     ["Event Seeds"] = {
         ["Auto Claim"] = true,
