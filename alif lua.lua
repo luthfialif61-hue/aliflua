@@ -10,8 +10,8 @@ _G.GAGConfig = _G.GAGConfig or {
     ["Planting"] = {
         ["Auto Plant"]  = true,
         ["Plant Plan"]  = {
-            ["Gold"] = 150,
-            ["Rainbow"] = 150,
+            ["Gold"] = 300,
+            ["Rainbow"] = 300,
         },
 
         ["Only Plant"]  = {},
