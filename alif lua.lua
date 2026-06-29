@@ -50,7 +50,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Place Sprinklers"]     = { ["Uncommon Sprinkler"] = 6 },
         ["Best Sprinkler Up To"] = "Uncommon Sprinkler",
         ["Keep Gear"]            = { ["Trowel"] = 1 },
-        ["Buy Gear"]             = { "Uncommon Sprinkler", "Super Watering Can", "Super Sprinkler" },
+        ["Buy Gear"]             = { "Super Watering Can", "Super Sprinkler" },
     },
     ["Event Seeds"] = {
         ["Auto Claim"] = true,
@@ -60,8 +60,8 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Send To"]    = "Guinnesse17",
         ["Send"]       = {
             "Moon Bloom", "Dragon's Breath", "Gold", "Rainbow", "Venom Spitter", "Mega",
-            "GoldenDragonfly", "Unicorn", "Raccoon",
-            "Uncommon Sprinkler", "Legendary Sprinkler", "Super Watering Can",
+            "Raccoon",
+            "Super Watering Can", "Super Sprinkler"
         },
     },
     ["Misc"] = {
