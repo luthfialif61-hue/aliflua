@@ -18,6 +18,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Layout"]      = "compact",
         ["Don't Plant"] = {
             ["Dragon's Breath"] = true,
+            ["Hypno Bloom"] = true,
             ["Moon Bloom"] = true,
             ["Venom Spitter"] = true,
         },
@@ -62,7 +63,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Auto Claim"] = true,
         ["Send To"]    = "Guinnesse17",
         ["Send"]       = {
-            "Moon Bloom", "Dragon's Breath", "Gold", "Rainbow", "Venom Spitter", "Mega",
+            "Moon Bloom", "Dragon's Breath", "Gold", "Rainbow", "Venom Spitter", "Mega", "Hypno Bloom",
             "Raccoon",
             "Super Watering Can", "Super Sprinkler"
         },
