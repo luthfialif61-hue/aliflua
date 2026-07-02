@@ -32,6 +32,7 @@ _G.GAGConfig = _G.GAGConfig or {
             "Bamboo", 
         },
         ["Shovel Up To"] = "Uncommon",
+        ["Buy Seeds"]    = { Carrot = 100 },
     },
     ["Money"] = {
         ["Keep Cash"]           = 15000,
