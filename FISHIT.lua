@@ -142,7 +142,7 @@ _G.FishItConfig = _G.FishItConfig or {
             "Corrupt Bait",
             "Aether Bait",
         },
-        ["Endgame"] = "",
+        ["Endgame"] = "Purplemoon Bait",
     },
 
     ["Rod List"] = {
