@@ -1,106 +1,82 @@
-_G.GAGConfig = _G.GAGConfig or {
-    ["Harvest"] = {
-        ["Auto Harvest"]  = true,
-        ["Sell At"]       = 95,
-        ["Sell Every"]    = 40,
-        ["Only Harvest"]  = {},
-        ["Don't Harvest"] = {},
-        ["Wait For Mutation"] = { "Mushroom", "Bamboo" }
-    },
-    ["Planting"] = {
-        ["Auto Plant"]  = true,
-        ["Plant Plan"]  = {
-            ["Gold"] = 200,
-            ["Rainbow"] = 200,
-        },
-
-        ["Only Plant"]  = {},
-        ["Layout"]      = "compact",
-        ["Don't Plant"] = {
-            ["Dragon's Breath"] = true,
-            ["Hypno Bloom"] = true,
-            ["Moon Bloom"] = true,
-            ["Venom Spitter"] = true,
-            ["Carrot"] = true,
-        },
-
-        ["Don't Buy"]   = {},
-        ["Keep Seeds"]  = {},
-        ["Plant Limit"] = {},
-        ["Never Shovel"] = { 
-            "Mushroom",
-            "Bamboo", 
-        },
-        ["Shovel Up To"] = "Uncommon",
-    },
-    ["Money"] = {
-        ["Keep Cash"]           = 15000,
-        ["Auto Expand Plot"]    = true,
-        ["Max Expansions"]      = 5,
-        ["Expand If Over"]      = 1500000,
-        ["Auto Replace Plants"] = false,
-    },
-    ["Never Sell"] = {
-        ["By Mutation"] = {},
-        ["By Fruit"]    = {},
-        ["Exact"]       = {},
-    },
-    ["Pets"] = {
-        ["Buy"] = {
-             ["Deer"] = 6,
-             "Raccoon",
-    },
-        ["Equip"]          = { Deer = 6 },
-        ["Auto Buy Slots"] = true,
-        ["Max Pet Slots"]  = 6,
-    },
-    ["Gear"] = {
-        ["Auto Buy"]             = true,
-        ["Keep Cash"]            = 15000,
-        ["Sprinkler Coverage"]   = "spread",
-        ["Place Sprinklers"]     = { ["Best"] = 6 },
-        ["Best Sprinkler Up To"] = "Rare Sprinkler",
-        ["Keep Gear"]            = { ["Trowel"] = 1 },
-        ["Buy Gear"]             = { "Super Watering Can", "Super Sprinkler" },
-    },
-    ["Event Seeds"] = {
-        ["Auto Claim"] = true,
-    },
-    ["Mail"] = {
-        ["Auto Claim"] = true,
-        ["Send To"]    = "Guinnesse17",
-        ["Send"]       = {
-            "Carrot", "Moon Bloom", "Dragon's Breath", "Gold", "Rainbow", "Venom Spitter", "Mega", "Hypno Bloom",
-            "Raccoon",
-            "Super Watering Can", "Super Sprinkler"
-        },
-    },
-    ["Misc"] = {
-        ["Auto Return To Garden"] = true,
-        ["Show Stats"]            = true,
-        ["Smart Travel"]          = true,
-        ["Auto Daily Deal"]       = true,
-        ["Walk Speed"]            = 35,
-        ["Slide Speed"]           = 35,
-        ["Fast Travel"]           = true,
-        ["Teleport"]              = false,
-    },
-    ["Friends"] = {
-        ["Auto Accept"] = false,
-        ["Auto Send"]   = false,
-    },
-    ["Performance"] = {
-        ["FPS Cap"]              = 5,
-        ["Low Graphics"]         = true,
-        ["Remove Other Gardens"] = true,
-        ["Hide Crop Visuals"]    = true,
-    },
-    ["Debug"] = {
-        ["Log To File"] = true,
-        ["Console"]     = true,
-    },
+{
+  "PLANT_SEED": {
+    "Mushroom": 50,
+    "Green Bean": 100,
+    "Bamboo": 100,
+    "Acorn": 20,
+    "Sunflower": 50,
+    "Venus Fly Trap": 3,
+    "Pomegranate": 3,
+    "Poison Apple": 3,
+    "Gold": 200,
+    "Rainbow": 200
+  },
+  "COLLECT_PLANT_IF_MUTATED": [
+    "Bamboo",
+    "Glow Mushroom",
+    "Sunflower"
+  ],
+  "BUY_SEED": {
+    "Carrot": 100,
+    "Dragon's Breath": 1,
+    "Ghost Pepper": 1,
+    "Moon Bloom": 1
+  },
+  "BUY_GEAR": {
+    "Super Watering Can": 1,
+    "Super Sprinkler": 1
+  },
+  "USE_SPRINKLER": [
+    "Common Sprinkler"
+  ],
+  "USE_WATERINGCAN": [
+    "Common Watering Can"
+  ],
+  "EQUIP_PET": {
+    "Deer": 6
+  },
+  "BUY_PET": {
+    "Bear": {},
+    "Raccoon": {}
+  },
+  "COLLECT_MAIL": true,
+  "EXPAND_PLOT": 5,
+  "FOCUS_RAINBOW_GOLD_SEED": true,
+  "COLLECT_SEEDPACK": true,
+  "OPEN_EGG": [
+    "Common Egg",
+    "Test Egg"
+  ],
+  "OPEN_SEEDPACK": [
+    "Uncommon Seed Pack",
+    "Rare Seed Pack",
+    "Common Seed Pack"
+  ],
+  "HIDE_OVERLAY": false,
+  "WEBHOOK_URL": "https://discordapp.com/api/webhooks/1522263083756818593/8NHFuqOzUGREut4v8Thk5yQf9Rg3y0lkaFjrCMjiEYN4eDtT5oijL0dk8dE5-OtSWbpg",
+  "AUTO_MAIL": {
+    "Guinnesse17": {
+      "Carrot": 100,
+      "Mega": 1,
+      "Dragon's Breath": 1,
+      "Venom Spitter": 1,
+      "Moon Bloom": 1,
+      "Hypno Bloom": 1,
+      "Bear": 1,
+      "Raccoon": 1,
+      "Super Watering Can": 10,
+      "Super Sprinkler": 5,
+      "Gold": 100,
+      "Rainbow": 50
+    }
+  },
+  "WEBHOOK_PET_NAME": [
+    "Bear",
+    "Raccoon"
+  ]
 }
 
-script_key="C121D2A194E1CA3545F329204D129455";
-
-local s,r repeat s,r=pcall(function()return game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/roblog/refs/heads/main/gag-obfuscated.lua")end)wait(1)until s;loadstring(r)()
+if not game:IsLoaded() then game.Loaded:Wait() end
+getgenv().script_key = "HOSHI-KEY-65867cf342319da9"
+_G.script_key = getgenv().script_key
+loadstring(game:HttpGet("https://hoshihub.site/kaitun.lua"))()
