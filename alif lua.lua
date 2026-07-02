@@ -31,7 +31,7 @@ _G.GAGConfig = _G.GAGConfig or {
             "Mushroom",
             "Bamboo", 
         },
-        ["Shovel Up To"] = "Rare",
+        ["Shovel Up To"] = "Uncommon",
     },
     ["Money"] = {
         ["Keep Cash"]           = 15000,
