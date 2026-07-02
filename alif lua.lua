@@ -26,7 +26,7 @@ _G.GAGConfig = _G.GAGConfig or {
 
         ["Don't Buy"]   = {},
         ["Keep Seeds"]  = {},
-        ["Plant Limit"] = 600,
+        ["Plant Limit"] = {},
         ["Never Shovel"] = { 
             "Mushroom",
             "Bamboo", 
