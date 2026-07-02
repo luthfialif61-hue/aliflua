@@ -10,8 +10,8 @@ _G.GAGConfig = _G.GAGConfig or {
     ["Planting"] = {
         ["Auto Plant"]  = true,
         ["Plant Plan"]  = {
-            ["Gold"] = 300,
-            ["Rainbow"] = 300,
+            ["Gold"] = 200,
+            ["Rainbow"] = 200,
         },
 
         ["Only Plant"]  = {},
@@ -25,6 +25,12 @@ _G.GAGConfig = _G.GAGConfig or {
 
         ["Don't Buy"]   = {},
         ["Keep Seeds"]  = {},
+        ["Plant Limit"] = 600,
+        ["Never Shovel"] = { 
+            "Mushroom",
+            "Bamboo", 
+        },
+        ["Shovel Up To"] = "Rare",
     },
     ["Money"] = {
         ["Keep Cash"]           = 15000,
@@ -39,9 +45,9 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Exact"]       = {},
     },
     ["Pets"] = {
-         ["Buy"] = {
+        ["Buy"] = {
              ["Deer"] = 6,
-             ["Raccoon"] = 1,
+             "Raccoon",
     },
         ["Equip"]          = { Deer = 6 },
         ["Auto Buy Slots"] = true,
