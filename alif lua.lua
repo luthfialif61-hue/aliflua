@@ -5,13 +5,19 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Sell Every"]    = 40,
         ["Only Harvest"]  = {},
         ["Don't Harvest"] = {},
-        ["Wait For Mutation"] = { "Mushroom", "Bamboo" }
+        ["Wait For Mutation"] = { "Mushroom", "Bamboo", "Sunflower" }
     },
     ["Planting"] = {
         ["Auto Plant"]  = true,
         ["Plant Plan"]  = {
             ["Gold"] = 200,
             ["Rainbow"] = 200,
+            ["Green Bean"] = 100,
+            ["Acorn"] = 20,
+            ["Sunflower"] = 50,
+            ["Venus Fly Trap"] = 3,
+            ["Pomegranate"] = 3,
+            ["Poison Apple"] = 3,
         },
 
         ["Only Plant"]  = {},
