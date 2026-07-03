@@ -79,7 +79,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Send To"]    = "Guinnesse17",
         ["Send"]       = {
             { Item = "Carrot", Count = 100 }, "Moon Bloom", "Dragon's Breath", "Gold", "Rainbow", "Venom Spitter", "Mega", "Hypno Bloom",
-            "Raccoon",
+            "Raccoon", "Bear",
             "Super Watering Can", "Super Sprinkler"
         },
     },
