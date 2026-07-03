@@ -56,6 +56,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Buy"] = {
              ["Deer"] = 6,
              "Raccoon",
+             "Bear",
     },
         ["Equip"]          = { Deer = 6 },
         ["Auto Buy Slots"] = true,
