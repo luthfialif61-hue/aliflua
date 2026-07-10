@@ -112,7 +112,7 @@ _G.GAGConfig = _G.GAGConfig or {
     },
 
     ["Auction"] = {
-        ["Auto Buy"] = true,
+        ["Auto Buy"] = false,
         ["Buy"] = {
            ["Common Egg"] = 2800000,
         },
