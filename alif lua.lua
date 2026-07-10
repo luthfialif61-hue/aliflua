@@ -26,8 +26,6 @@ _G.GAGConfig = _G.GAGConfig or {
             ["Dragon's Breath"] = true,
             ["Hypno Bloom"] = true,
             ["Moon Bloom"] = true,
-            ["Venom Spitter"] = true,
-            ["Carrot"] = true,
         },
 
         ["Don't Buy"]   = {},
