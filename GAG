@@ -1,1 +1,143 @@
+_G.GAGConfig = _G.GAGConfig or {
+    ["Harvest"] = {
+        ["Auto Harvest"] = true,
+        ["Sell At"] = 85,
+        ["Sell Every"] = 40,
+        ["Only Harvest"] = {},
+        ["Don't Harvest"] = {},
+        ["Wait For Mutation"] = { "Mushroom", "Bamboo", "Sunflower" },
+    },
 
+    ["Planting"] = {
+        ["Auto Plant"] = true,
+        ["Plant Plan"] = {
+            ["Gold"] = 200,
+            ["Rainbow"] = 200,
+            ["Mango"] = 100,
+            ["Bamboo"] = 100,
+            ["Mushroom"] = 50,
+            ["Sunflower"] = 50,
+            ["Cherry"] = 50,
+        },
+        },
+        ["Only Plant"] = {},
+        ["Minimum Seed"] = "",
+        ["Layout"] = "compact",
+        ["Don't Plant"] = {
+            ["Dragon's Breath"] = true,
+            ["Hypno Bloom"] = true,
+            ["Moon Bloom"] = true,
+            ["Mega"] = true,
+        },
+        ["Don't Buy"] = {},
+        ["Keep Seeds"] = {},
+        ["Plant Limit"] = 0,
+        ["Never Shovel"] = {},
+        ["Shovel Up To"] = "",
+        ["Buy Seeds"] = {
+            ["Dragon's Breath"] = 999,
+            ["Hypno Bloom"] = 999,
+            ["Moon Bloom"] = 999,
+        },
+    },
+
+    ["Money"] = {
+        ["Keep Cash"] = 15000,
+        ["Auto Expand Plot"] = true,
+        ["Max Expansions"] = 5,
+        ["Expand If Over"] = 1500000,
+        ["Auto Replace Plants"] = true,
+    },
+
+    ["Never Sell"] = {
+        ["By Mutation"] = {},
+        ["By Fruit"] = {},
+        ["Exact"] = {},
+    },
+
+    ["Pets"] = {
+        ["Buy"] = { "Unicorn", "GoldenDragonfly", "Raccoon", Deer = 6 },
+        ["Equip"] = { Deer = 6 },
+        ["Auto Buy Slots"] = true,
+        ["Max Pet Slots"] = 6,
+    },
+
+    ["Gear"] = {
+        ["Auto Buy"] = true,
+        ["Keep Cash"] = 15000,
+        ["Sprinkler Coverage"] = "concentrate",
+        ["Place Sprinklers"] = { ["best"] = 6 },
+        ["Best Sprinkler Up To"] = "Uncommon Sprinkler",
+        ["Keep Gear"] = {},
+        ["Buy Gear"] = { "Super Sprinkler", "Super Watering Can", "Legendary Sprinkler" },
+    },
+
+    ["Event Seeds"] = {
+        ["Auto Claim"] = true,
+    },
+
+    ["Mail"] = {
+        ["Auto Claim"] = true,
+        ["Auto Accept Gift"] = true,
+        ["Send To"] = "stokalipdua",
+        ["Send Every"] = 0,
+        ["Send"] = {
+            "Moon Bloom",
+            "Dragon's Breath",
+            "Gold",
+            "Rainbow",
+            "Unicorn",
+            "Raccoon",
+            "Super Sprinkler",
+            "Legendary Sprinkler",
+            "Super Watering Can",
+        },
+    },
+
+    ["Misc"] = {
+        ["Auto Return To Garden"] = true,
+        ["Show Stats"] = true,
+        ["Hide Game UI"] = false,
+        ["Show Console"] = false,
+        ["Smart Travel"] = true,
+        ["Auto Daily Deal"] = true,
+        ["Walk Speed"] = 0,
+        ["Slide Speed"] = 30,
+        ["Fast Travel"] = false,
+        ["Teleport"] = true,
+    },
+
+    ["Friends"] = {
+        ["Auto Accept"] = false,
+        ["Auto Send"] = false,
+    },
+
+    ["Auction"] = {
+        ["Auto Buy"] = true,
+        ["Buy"] = {
+           ["Common Egg"] = 2800000,
+        },
+        ["Keep Cash"] = 3000000,
+        ["Check Every"] = 0.2,
+        ["Max Tries"] = 10,
+    },
+
+    ["Eggs"] = {
+        ["Auto Open"] = false,
+        ["Open"] = {},
+    },
+
+    ["Performance"] = {
+        ["FPS Cap"] = 5,
+        ["Low Graphics"] = true,
+        ["Remove Other Gardens"] = true,
+        ["Hide Crop Visuals"] = true,
+        ["Hide Fruit Visuals"] = true,
+        ["Hide Players"] = true,
+    },
+
+    ["Debug"] = {
+        ["Log To File"] = true,
+        ["Console"] = true,
+    },
+}
