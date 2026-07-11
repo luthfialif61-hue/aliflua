@@ -127,7 +127,7 @@ _G.GAGConfig = _G.GAGConfig or {
     },
 
     ["Performance"] = {
-        ["FPS Cap"] = 3,
+        ["FPS Cap"] = 5,
         ["Low Graphics"] = true,
         ["Remove Other Gardens"] = true,
         ["Hide Crop Visuals"] = true,
@@ -136,8 +136,8 @@ _G.GAGConfig = _G.GAGConfig or {
     },
 
     ["Debug"] = {
-        ["Log To File"] = true,
-        ["Console"] = true,
+        ["Log To File"] = false,
+        ["Console"] = false,
     },
 }
 
