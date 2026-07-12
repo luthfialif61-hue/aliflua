@@ -20,12 +20,10 @@ _G.GAGConfig = _G.GAGConfig or {
             ["Cherry"] = 50,
         },
         ["Only Plant"] = {},
-        ["Minimum Seed"] = "",
+        ["Minimum Seed"] = "mushroom",
         ["Layout"] = "compact",
         ["Don't Plant"] = {
             "Dragon's Breath",
-            "Hypno Bloom",
-            "Moon Bloom",
             "Mega",
         },
         ["Don't Buy"] = {},
@@ -35,17 +33,15 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Shovel Up To"] = "",
         ["Buy Seeds"] = {
             ["Dragon's Breath"] = 999,
-            ["Hypno Bloom"] = 999,
-            ["Moon Bloom"] = 999,
         },
     },
 
     ["Money"] = {
         ["Keep Cash"] = 15000,
         ["Auto Expand Plot"] = true,
-        ["Max Expansions"] = 5,
+        ["Max Expansions"] = 3,
         ["Expand If Over"] = 1500000,
-        ["Auto Replace Plants"] = true,
+        ["Auto Replace Plants"] = false,
     },
 
     ["Never Sell"] = {
@@ -55,7 +51,7 @@ _G.GAGConfig = _G.GAGConfig or {
     },
 
     ["Pets"] = {
-        ["Buy"] = { "GoldenDragonfly", "Raccoon", Deer = 6 },
+        ["Buy"] = { "Raccoon", Deer = 6 },
         ["Equip"] = { Deer = 6 },
         ["Auto Buy Slots"] = true,
         ["Max Pet Slots"] = 6,
