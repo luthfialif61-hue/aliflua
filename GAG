@@ -25,7 +25,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Keep Seeds"] = {},
         ["Plant Limit"] = 400,
         ["Never Shovel"] = {},
-        ["Shovel Up To"] = "",
+        ["Shovel Up To"] = "Uncommon",
         ["Buy Seeds"] = {
             ["Dragon's Breath"] = 999,
         },
