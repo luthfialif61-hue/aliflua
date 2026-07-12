@@ -13,11 +13,6 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Plant Plan"] = {
             ["Gold"] = 200,
             ["Rainbow"] = 200,
-            ["Mango"] = 100,
-            ["Bamboo"] = 100,
-            ["Mushroom"] = 50,
-            ["Sunflower"] = 50,
-            ["Cherry"] = 50,
         },
         ["Only Plant"] = {},
         ["Minimum Seed"] = "mushroom",
@@ -28,7 +23,7 @@ _G.GAGConfig = _G.GAGConfig or {
         },
         ["Don't Buy"] = {},
         ["Keep Seeds"] = {},
-        ["Plant Limit"] = 0,
+        ["Plant Limit"] = 400,
         ["Never Shovel"] = {},
         ["Shovel Up To"] = "",
         ["Buy Seeds"] = {
