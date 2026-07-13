@@ -9,7 +9,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Fish Name"] = {
             {Name = "Ruby", Variant = "Gemstone"},
         },
-        ["Trade Timeout"] = 90,
+        ["Trade Timeout"] = 60,
         ["Auto Accept Trade"] = true,
         ["Auto Friend Request"] = true,
         ["Auto Egg Exchange"] = false,
@@ -17,7 +17,7 @@ _G.FishItConfig = _G.FishItConfig or {
 
     ["Auto Trade"] = {
         ["Enabled"] = true,
-        ["Whitelist Username"] = {"stokalipx"},
+        ["Whitelist Username"] = { "stokalipx", "stokalipdua" },
         ["Category Fish"] = {
             "FORGOTTEN",
             "Secret",
@@ -28,7 +28,7 @@ _G.FishItConfig = _G.FishItConfig or {
         },
         ["Item Name"] = {
             "Evolved Enchant Stone",
-            "Wethering Core",
+            "Runic Enchant Stone",
         },
     },
 
@@ -39,7 +39,7 @@ _G.FishItConfig = _G.FishItConfig or {
 
     ["Selling"] = {
         ["Auto Sell"] = true,
-        ["Auto Sell Threshold"] = "Legendary",
+        ["Auto Sell Threshold"] = "Mythic",
         ["Auto Sell Every"] = 100,
     },
 
@@ -69,7 +69,11 @@ _G.FishItConfig = _G.FishItConfig or {
             "Secret",
             {Name = "Ruby", Variant = "Gemstone"},
         },
-        ["Item Name"] = { "Wethering Core" },
+        ["Item Name"] = {
+            "Evolved
+            "Wethering Core",
+            "Runic",
+        },
         ["Link Webhook"] = "https://discordapp.com/api/webhooks/1460327152598651074/aLx94LO1X_yP8vDlUijPyQ4xeG_fFsptKd6UnPBu8YXr3Tgjwm_TgYhbEd1l-Vc-H4D1",
         ["Link Webhook Quest Complete"] = "",
     },
@@ -85,7 +89,7 @@ _G.FishItConfig = _G.FishItConfig or {
     },
 
     ["Potions"] = {
-        ["Auto Use"] = false,
+        ["Auto Use"] = true,
         ["Minimum Rod"] = "Astral Rod",
     },
 
@@ -101,24 +105,19 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Start Farm"] = false,
         ["Minimum Rod"] = "Ghostfinn Rod",
         ["Event List"] = {
-            ["Mutant Runic Koi"] = true,
-            ["Ancient Lochness Monster"] = true,
-            "Ghost Shark Hunt",
-            "Shark Hunt",
             "Megalodon Hunt",
         },
     },
 
     ["Enchant"] = {
-        ["Auto Enchant"] = false,
+        ["Auto Enchant"] = true,
         ["Roll Enchant"] = false,
         ["Evolved Roll Enchant"] = true,
-        ["Farm Until Enchant"] = false,
+        ["Farm Until Enchant"] = true,
         ["Enchant List"] = {
             "SECRET Hunter",
-            "Big Hunter",
         },
-        ["Second Enchant"] = false,
+        ["Second Enchant"] = true,
         ["Allowed Sacrifice"] = {
             "Blob Shark",
             "Cryoshade Glider",
@@ -135,14 +134,14 @@ _G.FishItConfig = _G.FishItConfig or {
     },
 
     ["Bait List"] = {
-        ["Auto Buying"] = false,
+        ["Auto Buying"] = true,
         ["Buy List"] = {
             "Midnight Bait",
             "Chroma Bait",
             "Corrupt Bait",
             "Aether Bait",
         },
-        ["Endgame"] = "Purple Moon Bait",
+        ["Endgame"] = "",
     },
 
     ["Rod List"] = {
@@ -158,16 +157,16 @@ _G.FishItConfig = _G.FishItConfig or {
             ["Fisherman Island"] = {"Starter Rod"},
             ["Kohana Volcano"] = {"Grass Rod", "Midnight Rod"},
             ["Tropical Grove"] = {"Astral Rod"},
-            ["Copper Canyon"] = {"Diamond Rod"},
+            ["Sewers"] = {"Element Rod"},
         },
-        ["Endgame"] = "Wethering Rod",
+        ["Endgame"] = "",
     },
 
     ["ExtremeFpsBoost"] = true,
-    ["UltimatePerformance"] = false,
+    ["UltimatePerformance"] = true,
     ["Disable3DRender"] = true,
     ["AutoRemovePlayer"] = false,
-    ["AutoReconnect"] = false,
+    ["AutoReconnect"] = true,
     ["HideGUI"] = false,
     ["EXIT_MAP_IF_DISCONNECT"] = false,
 }
